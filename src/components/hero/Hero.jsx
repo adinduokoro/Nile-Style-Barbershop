@@ -6,7 +6,6 @@ const Hero = () => {
   return (
     <section className={styles.box}>
       <Navigation />
-      {/* Hero */}
     </section>
   );
 };

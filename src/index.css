@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+    max-width: 100vw;
+    font-family: Oswald, sans-serif;
+  }
+  
+  section {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    font-family: Oswald, sans-serif;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  
