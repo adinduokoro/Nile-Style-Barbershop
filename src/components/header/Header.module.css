@@ -1,7 +1,50 @@
 .header {
+  position: relative;
+  height: calc(100% - var(--navigation-height));
 }
 
 .logo {
-  width: 30.9375rem;
-  height: 30.9375rem;
+  max-width: 50%;
+  max-height: 50%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+.logo-animation {
+  max-width: 70%;
+  max-height: 70%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotateLogo 40s linear infinite;
+}
+
+@keyframes rotateLogo {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg); /* Initial position and rotation */
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg); /* Final position and rotation (full circle) */
+  }
+}
+
+.button{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-scroller{
+  width: 3.125rem;
+  height: 3.125rem;
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
