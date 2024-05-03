@@ -1,10 +1,15 @@
-import React from 'react'
-import styles from "./About.module.css"
+import React from "react";
+import styles from "./About.module.css";
+import {PageTitle} from "../index"
 
 const About = () => {
   return (
-    <section style={{backgroundColor: "green"}}>About</section>
-  )
-}
+    <section className={styles.about}>
+      <PageTitle />
+      {/* content */}
+      {/* button */}
+    </section>
+  );
+};
 
-export default About
+export default About;

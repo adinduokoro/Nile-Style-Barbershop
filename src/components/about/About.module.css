@@ -1,0 +1,8 @@
+.about {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  background-image: url(../../assets/about-bg-image.jpg);
+  position: relative;
+}

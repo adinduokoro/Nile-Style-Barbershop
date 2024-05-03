@@ -14,7 +14,7 @@
   --primary-font: "Oswald", sans-serif;
 
   /* color */
-  --primary-color-white: #fff; 
+  --primary-color-white: #fff;
   --secondary-color-black: #000;
 }
 
@@ -47,7 +47,7 @@ button {
   width: 13.1875rem;
   height: 3.3125rem;
   border-radius: 0.9375rem;
-  border: 3px solid var(--primary-color-white);;
+  border: 3px solid var(--primary-color-white);
   appearance: none;
   background-color: transparent;
   color: var(--primary-color-white);
@@ -61,8 +61,8 @@ button {
   letter-spacing: 0.01063rem;
 }
 
-button:hover{
+button:hover {
   color: var(--secondary-color-black);
-  background-color: var(--primary-color-white);;
-  transition: .30s ease-in-out;
+  background-color: var(--primary-color-white);
+  transition: 0.3s ease-in-out;
 }
