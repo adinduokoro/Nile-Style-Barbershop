@@ -9,7 +9,7 @@ const PageTitle = ({ number, title, subTitle }) => {
       <h1 className={styles.title}>{title}</h1>
       <div className={styles.content}>
         <hr className={styles["horizontal-line-2"]} />
-        <h2>{subTitle}</h2>
+        <h3>{subTitle}</h3>
       </div>
     </div>
   );

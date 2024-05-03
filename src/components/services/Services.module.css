@@ -8,11 +8,50 @@
   display: flex;
   justify-content: center;
   background-attachment: fixed;
-
 }
 
-.services-content{
+.services-content {
   margin: 3.75rem 0;
-  max-width: 40.4375rem;
   width: 100%;
+  display: flex;
+gap: 1.5rem;}
+
+.service {
+  width: 22.4375rem;
+  height: 24.8125rem;
+  border-radius: 2.4375rem;
+  border: 3px solid var(--primary-color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.62rem;
+  padding: 0 3.13rem;
+}
+
+.image-container {
+  width: 5.5625rem;
+  height: 5.5625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-2 {
+  text-align: center;
+  font-family: var(--secondary-font);
+}
+
+.info p{
+  text-align: center;
+  margin-top: 1.75rem;
 }

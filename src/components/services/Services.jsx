@@ -14,10 +14,17 @@ const Services = () => {
         />
         <div className={styles["services-content"]}>
           {services.map((service, index) => {
-            return <div className={styles.service} key={index}>
-              
-              <p>{service.description}</p>
-            </div>;
+            return (
+              <div className={styles.service} key={index}>
+                <div className={styles["image-container"]}>
+                  <img className={styles.icon} src={service.icon} alt="" />
+                </div>
+                <div className={styles.info}>
+                  <h2 className={styles["header-2"]}>{service.name}</h2>
+                  <p>{service.description}</p>
+                </div>
+              </div>
+            );
           })}
         </div>
         <Button text={"All Services"} />
