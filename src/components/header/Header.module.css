@@ -24,14 +24,14 @@
 
 @keyframes rotateLogo {
   from {
-    transform: translate(-50%, -50%) rotate(0deg); /* Initial position and rotation */
+    transform: translate(-50%, -50%) rotate(0deg); 
   }
   to {
-    transform: translate(-50%, -50%) rotate(360deg); /* Final position and rotation (full circle) */
+    transform: translate(-50%, -50%) rotate(360deg); 
   }
 }
 
-.button{
+.button-container{
   position: absolute;
   bottom: 10%;
   left: 50%;

@@ -3,6 +3,7 @@ import styles from "./Header.module.css";
 import logo from "../../assets/nile-style-logo.svg";
 import logoAnimation from "../../assets/since-1998.svg";
 import pageScroller from "../../assets/page-scroller.svg";
+import { Button } from "../../components";
 
 const Header = () => {
   return (
@@ -13,11 +14,9 @@ const Header = () => {
         src={logoAnimation}
         alt="since-1998"
       />
-      <a href="">
-        <button className={styles.button}>
-          Book an Appointment
-        </button>
-      </a>
+      <div className={styles["button-container"]}>
+        <Button text={"Book an Appointment"}/>
+      </div>
       <img
         className={styles["page-scroller"]}
         src={pageScroller}
