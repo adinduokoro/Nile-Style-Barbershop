@@ -1,7 +1,13 @@
-import React from 'react'
-import styles from "./Home.module.css"
-import { Hero, About , Services , Pricing , Gallery , Contact } from '../../components'
-
+import React from "react";
+import styles from "./Home.module.css";
+import {
+  Hero,
+  About,
+  Services,
+  Pricing,
+  Gallery,
+  Contact,
+} from "../../components";
 
 const Home = () => {
   return (
@@ -9,11 +15,11 @@ const Home = () => {
       <Hero />
       <About />
       <Services />
-      {/* <Pricing />
+      <Pricing />
       <Gallery />
-      <Contact /> */}
+      <Contact />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
