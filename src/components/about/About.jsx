@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./About.module.css";
-import { Button, PageTitle } from "../index";
+import { Button, PageTitle } from "../../components";
 
 const About = () => {
   return (

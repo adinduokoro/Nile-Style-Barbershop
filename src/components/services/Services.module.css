@@ -1,0 +1,18 @@
+.services {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  background-image: url(../../assets/services-bg-image.jpg);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-attachment: fixed;
+
+}
+
+.services-content{
+  margin: 3.75rem 0;
+  max-width: 40.4375rem;
+  width: 100%;
+}
