@@ -15,7 +15,7 @@ const Header = () => {
       />
       <a href="">
         <button className={styles.button}>
-          <p>Book an Appointment</p>
+          Book an Appointment
         </button>
       </a>
       <img

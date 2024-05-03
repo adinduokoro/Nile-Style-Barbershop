@@ -5,4 +5,23 @@
   display: table;
   background-image: url(../../assets/about-bg-image.jpg);
   position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.about-content{
+  margin: 3.75rem 0;
+  max-width: 40.4375rem;
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.56rem;
+}
+
+.right-arrow{
+  
 }

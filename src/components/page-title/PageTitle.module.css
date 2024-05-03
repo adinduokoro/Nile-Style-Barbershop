@@ -1,0 +1,26 @@
+.number{
+  margin-bottom: 0.5rem;
+}
+
+.horizontal-line-1{
+  width: 4.25rem;
+height: 0.1875rem;
+background: var(--primary-color-white);
+margin-bottom: 0.62rem;
+}
+
+.title{
+  margin-bottom: 0.63rem;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  gap: 0.88rem;
+}
+
+.horizontal-line-2{
+  width: 2.125rem;
+  height: 0.1875rem;
+background: var(--primary-color-white);
+}
