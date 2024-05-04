@@ -9,26 +9,30 @@
   justify-content: center;
 }
 
-.contact-content{
-  max-width: 34.5rem;
-  margin: 3.75rem 0;
-  padding: 1.88rem 0;
-  width: 100%;
-  border-radius: 0.9375rem;
-border: 3px solid var(--primary-color-white);
+.contact-container{
+  display: flex;
+  margin-top: 2.87rem;
+  min-height: 36.5rem;
+  gap: 1.5rem;
+  justify-content: space-between;
 }
 
 .hours-of-operation{
+  width: 100%;
+  border-radius: 0.9375rem;
+  border: 3px solid var(--primary-color-white);
   display: flex;
   flex-direction: column;
-align-items: center;
+  align-items: center;
   gap: 2.5rem;
+  justify-content: center;
+  max-width: 34.5rem;
 }
 
 .title{
-font-family: var(--secondary-font);
-font-weight: 700;
-text-decoration-line: underline;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  text-decoration-line: underline;
 }
 
 .hours-container{
@@ -50,7 +54,71 @@ font-weight: 400;
 }
 
 .disclaimer{
-text-align: center;
-font-family: var(--secondary-font);
-max-width: 16.1875rem;
+  text-align: center;
+  max-width: 16.1875rem;
+}
+
+.operation-info{
+  display: flex;
+  width: 100%;
+  /* border-radius: 0.9375rem;
+  border: 3px solid var(--primary-color-white); */
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  max-width: 27rem;
+}
+
+.phone,
+.social{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.88rem;
+}
+
+.phone .cta,
+.phone .number,
+.social .cta{
+  font-family: var(--secondary-font);
+  text-align: left;
+font-weight: 700;
+}
+
+
+.phone .number{
+  font-weight: 400;
+
+}
+
+.address{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.address .cta{
+  font-family: var(--secondary-font);
+  margin-bottom: 1.88rem;
+font-weight: 700;
+
+}
+
+.business-name,
+.street{
+  margin-bottom: 0.94rem;
+}
+
+.business-name,
+.street,
+.zipcode{
+  text-align: left;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+}
+
+.icons{
+  display: flex;
+  gap: 0.56rem;
+  align-items: center;
 }
