@@ -20,7 +20,7 @@
   --secondary-color-black: #000;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -75,12 +75,12 @@ h3 {
 
 h4 {
   color: var(--primary-color-white);
-font-family: var(--secondary-font);
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.25rem;
-letter-spacing: 0.00625rem;
+  font-family: var(--secondary-font);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: 0.00625rem;
 }
 
 p {
@@ -119,6 +119,7 @@ button {
   font-size: 1.0625rem;
   font-weight: 400;
   letter-spacing: 0.01063rem;
+  transition: 0.3s ease-in-out;
 }
 
 button:hover {

@@ -27,6 +27,16 @@ gap: 1.5rem;}
   justify-content: center;
   gap: 2.62rem;
   padding: 0 3.13rem;
+  cursor: pointer;
+  background-color: none;
+  transition: 0.3s ease-in-out;
+
+}
+
+.service:hover{
+  background-color: var(--secondary-color-black);
+  transition: 0.3s ease-in-out;
+
 }
 
 .image-container {
