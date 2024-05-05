@@ -15,13 +15,15 @@ const Header = () => {
         alt="since-1998"
       />
       <div className={styles["button-container"]}>
-        <Button text={"Book an Appointment"}/>
+        <Button text={"Book an Appointment"} />
       </div>
-      <img
-        className={styles["page-scroller"]}
-        src={pageScroller}
-        alt="page-scroller"
-      />
+      <div className={styles["scroller-container"]}>
+        <img
+          className={styles["page-scroller"]}
+          src={pageScroller}
+          alt="page-scroller"
+        />
+      </div>
     </div>
   );
 };
