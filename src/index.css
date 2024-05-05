@@ -20,6 +20,10 @@
   --secondary-color-black: #000;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: black;
   color: var(--primary-color-white);

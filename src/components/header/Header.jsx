@@ -17,13 +17,13 @@ const Header = () => {
       <div className={styles["button-container"]}>
         <Button text={"Book an Appointment"} />
       </div>
-      <div className={styles["scroller-container"]}>
+      <a className={styles["scroller-container"]} href="#about">
         <img
           className={styles["page-scroller"]}
           src={pageScroller}
           alt="page-scroller"
         />
-      </div>
+      </a>
     </div>
   );
 };
