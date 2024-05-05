@@ -5,7 +5,7 @@ import { services } from "./data";
 
 const Services = () => {
   return (
-    <section className={styles.services}>
+    <section className={`${styles.services} bg-setting`}>
       <div className="wrapper">
         <PageTitle
           number={"2"}

@@ -5,7 +5,7 @@ import { products } from "./data";
 
 const Pricing = () => {
   return (
-    <section className={styles.pricing}>
+    <section className={`${styles.pricing} bg-setting`}>
       <div className="wrapper">
         <PageTitle
           number={"3"}

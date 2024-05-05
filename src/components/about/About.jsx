@@ -4,7 +4,7 @@ import { Button, PageTitle } from "../../components";
 
 const About = () => {
   return (
-    <section className={styles.about} id="about">
+    <section className={`${styles.about} bg-setting`} id="about">
       <div className="wrapper">
         <PageTitle
           number={"1"}

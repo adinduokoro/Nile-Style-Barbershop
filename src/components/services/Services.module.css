@@ -1,10 +1,6 @@
 .services {
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  display: table;
+
   background-image: url(../../assets/services-bg-image.jpg);
-  position: relative;
   display: flex;
   justify-content: center;
   background-attachment: fixed;
@@ -31,7 +27,6 @@
   cursor: pointer;
   background-color: none;
   transition: 0.3s ease-in-out;
-  flex: 1;
 }
 
 .service:hover {
@@ -73,4 +68,8 @@
     width: 4.171875rem;
     height: 4.171875rem;
   }
+}
+
+@media screen and (max-width: 768px) {
+  
 }

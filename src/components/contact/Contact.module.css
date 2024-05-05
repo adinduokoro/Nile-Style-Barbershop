@@ -1,12 +1,7 @@
 .contact {
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  display: table;
-  background-image: url(../../assets/contact-bg-image.jpg);
-  position: relative;
   display: flex;
   justify-content: center;
+  background-image: url(../../assets/contact-bg-image.jpg);
 }
 
 .contact-container{
@@ -26,7 +21,8 @@
   align-items: center;
   gap: 2.5rem;
   justify-content: center;
-  max-width: 34.5rem;
+  flex: 2;
+
 }
 
 .title{
@@ -66,7 +62,7 @@ font-weight: 400;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  max-width: 27rem;
+  flex: 1;
 }
 
 .phone,

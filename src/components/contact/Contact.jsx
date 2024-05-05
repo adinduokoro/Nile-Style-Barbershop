@@ -7,7 +7,7 @@ import instagramIcon from "../../assets/instagram-icon.svg";
 
 const Contact = () => {
   return (
-    <section className={styles.contact}>
+    <section className={`${styles.contact} bg-setting`}>
       <div className="wrapper">
         <PageTitle
           number={"5"}

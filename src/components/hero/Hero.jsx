@@ -6,7 +6,7 @@ import logoAnimation from "../../assets/since-1998.svg"
 
 const Hero = () => {
   return (
-    <section className={styles.hero}>
+    <section className={`${styles.hero} bg-setting`}>
       <Navigation />
       <Header />
     </section>

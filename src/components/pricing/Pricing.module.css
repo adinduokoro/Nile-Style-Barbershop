@@ -1,12 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap");
 
 .pricing {
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  display: table;
   background-image: url(../../assets/pricing-bg-image.jpg);
-  position: relative;
   display: flex;
   justify-content: center;
 }

@@ -42,6 +42,13 @@ section {
   padding: 0 5%;
 }
 
+.bg-setting{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
 .wrapper {
   max-width: 70.3125rem;
   width: 100%;

@@ -1,10 +1,5 @@
 .hero {
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  display: table;
   background-image: url(../../assets/hero-bg-image.jpg);
-  position: relative;
   background-attachment: fixed;
   min-height: 700px !important;
 }

@@ -5,7 +5,7 @@ import {images} from "./data"
 
 const Gallery = () => {
   return (
-    <section className={styles.gallery}>
+    <section className={`${styles.gallery} bg-setting`}>
       <div className="wrapper">
         <PageTitle
           number={"4"}
