@@ -21,7 +21,11 @@ const Contact = () => {
               {hours.map((hour, index) => {
                 return (
                   <h2 className={styles.hour} key={index}>
-                    {hour.weekday} <span>{hour.hour}</span>
+                    <div className={styles.weekday}>{hour.weekday} </div>
+
+                    <div className={styles.nickname}>{hour.nickname}</div>
+
+                    <span className={styles.time}>{hour.hour}</span>
                   </h2>
                 );
               })}

@@ -1,6 +1,8 @@
 .header {
   position: relative;
   height: calc(100% - var(--navigation-height));
+  display: flex;
+  align-items: center;
 }
 
 .logo {

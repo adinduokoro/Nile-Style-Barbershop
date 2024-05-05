@@ -1,5 +1,7 @@
 .hero {
   background-image: url(../../assets/hero-bg-image.jpg);
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   min-height: 700px !important;
 }

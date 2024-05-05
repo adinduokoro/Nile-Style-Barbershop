@@ -1,5 +1,4 @@
 .contact {
-  display: flex;
   justify-content: center;
   background-image: url(../../assets/contact-bg-image.jpg);
 }
@@ -38,14 +37,26 @@
 }
 
 .hour{
+  display: flex;
+  justify-content: center;
 font-family: var(--secondary-font);
 font-size: 1.75rem;
 font-style: normal;
 font-weight: 700;
-line-height: 1.75rem; 
+line-height: 1.75rem; text-align: left;
+white-space: nowrap;
 }
 
-.hour span{
+.weekday,
+.nickname{
+  margin-right: 0.625rem;
+}
+
+.nickname{
+  display: none;
+}
+
+.time{
 font-weight: 400;
 }
 
