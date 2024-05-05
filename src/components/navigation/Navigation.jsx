@@ -10,6 +10,7 @@ const Navigation = () => {
           return (
             <li className={styles.link} key={index}>
               <a href={link.path}>{link.name}</a>
+              <hr />
             </li>
           );
         })}

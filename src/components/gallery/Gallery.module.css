@@ -22,11 +22,19 @@
 
 .image-container {
   border-radius: 0.9375rem;
-  border: 3px solid #fff;
+  border: 3px solid var(--primary-color-white);
   width: 10.375rem;
   height: 20.75rem;
   overflow: hidden;
+  scale: 1;
+  transition: var(--transition);
 }
+
+.image-container:hover{
+  scale: 1.2;
+}
+
+
 
 .image-container:nth-child(odd) {
   align-self: flex-start;
@@ -38,4 +46,21 @@
 
 .image-container img {
   object-fit: cover;
+}
+
+@media screen and (max-width: 1150px){
+  .gallery-content{
+    justify-content: space-around;
+    padding: 0 2.5%;
+  }
+
+  .image-container:nth-child(6){
+    display: none;
+  }
+}
+
+@media screen and (max-width: 975px){
+  .image-container:nth-child(5){
+    display: none;
+  }
 }

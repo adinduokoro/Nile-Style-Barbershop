@@ -8,7 +8,7 @@ const Pricing = () => {
     <section className={styles.pricing}>
       <div className="wrapper">
         <PageTitle
-          number={"2"}
+          number={"3"}
           title={"Pricing"}
           subTitle={"That Won't Break the Bank"}
         />

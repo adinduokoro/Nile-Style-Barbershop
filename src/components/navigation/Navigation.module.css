@@ -21,4 +21,22 @@
   font-size: 1.0625rem;
   font-weight: 500;
   letter-spacing: 0.01063rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.link hr {
+  width: 1.5625rem;
+  height: 0.25rem;
+  transform: scaleX(0);
+  margin-left: 0.12rem;
+  transition: var(--transition);
+
+}
+
+.link:hover hr {
+  transform: scaleX(1);
+  transition: var(--transition);
+  
 }

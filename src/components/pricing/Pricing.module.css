@@ -37,3 +37,9 @@ margin-bottom: 0.94rem;
   align-items: center;
 }
 
+@media screen and (max-width: 900px) {
+  .pricing-content{
+    max-width: 28.5rem;
+  }
+}
+
