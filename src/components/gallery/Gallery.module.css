@@ -53,9 +53,27 @@
   }
 }
 
-@media screen and (max-width:768px) {
-  .image-container{
-  width: 10.375rem;
+@media screen and (max-width: 768px) {
+  .image-container {
+    width: 10.375rem;
+  }
+}
 
+@media screen and (max-width: 650px) {
+  .image-container {
+    width: 7.78125rem;
+    height: 12.45rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .gallery-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .image-container {
+    max-width: 8.8359rem;
+    height: 9.33rem;
+    width: 100%;
   }
 }

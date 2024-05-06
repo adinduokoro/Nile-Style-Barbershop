@@ -7,27 +7,27 @@ export const hours = [
   {
     weekday: "TUESDAY",
     nickname: "TUES",
-    hour: "8:00am - 6:00pm",
+    hour: "8am - 6pm",
   },
   {
     weekday: "WEDNESDAY",
     nickname: "WED",
-    hour: "8:00am - 6:00pm",
+    hour: "8am - 6pm",
   },
   {
     weekday: "THURSDAY",
     nickname: "THUR",
-    hour: "8:00am - 6:00pm",
+    hour: "8am - 6pm",
   },
   {
     weekday: "FRIDAY",
     nickname: "FRI",
-    hour: "8:00am - 6:00pm",
+    hour: "8am - 6pm",
   },
   {
     weekday: "SATURDAY",
     nickname: "SUN",
-    hour: "7:00am - 5:00pm",
+    hour: "7am - 5pm",
   },
   {
     weekday: "SUNDAY",
