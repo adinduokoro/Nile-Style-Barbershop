@@ -3,7 +3,7 @@
   background-image: url(../../assets/contact-bg-image.jpg);
 }
 
-.contact-container{
+.contact-container {
   display: flex;
   margin-top: 2.87rem;
   min-height: 36.5rem;
@@ -11,7 +11,7 @@
   justify-content: space-between;
 }
 
-.hours-of-operation{
+.hours-of-operation {
   width: 100%;
   border-radius: 0.9375rem;
   border: 3px solid var(--primary-color-white);
@@ -21,55 +21,53 @@
   gap: 2.5rem;
   justify-content: center;
   flex: 2;
-
 }
 
-.title{
+.title {
   font-family: var(--secondary-font);
   font-weight: 700;
   text-decoration-line: underline;
 }
 
-.hours-container{
+.hours-container {
   display: flex;
   flex-direction: column;
   gap: 1.87rem;
 }
 
-.hour{
+.hour {
   display: flex;
   justify-content: center;
-font-family: var(--secondary-font);
-font-size: 1.75rem;
-font-style: normal;
-font-weight: 700;
-line-height: 1.75rem; text-align: left;
-white-space: nowrap;
+  font-family: var(--secondary-font);
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  text-align: left;
+  white-space: nowrap;
 }
 
 .weekday,
-.nickname{
+.nickname {
   margin-right: 0.625rem;
 }
 
-.nickname{
+.nickname {
   display: none;
 }
 
-.time{
-font-weight: 400;
+.time {
+  font-weight: 400;
 }
 
-.disclaimer{
+.disclaimer {
   text-align: center;
   max-width: 16.1875rem;
 }
 
-.operation-info{
+.operation-info {
   display: flex;
   width: 100%;
-  /* border-radius: 0.9375rem;
-  border: 3px solid var(--primary-color-white); */
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
@@ -77,7 +75,7 @@ font-weight: 400;
 }
 
 .phone,
-.social{
+.social {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -86,46 +84,53 @@ font-weight: 400;
 
 .phone .cta,
 .phone .number,
-.social .cta{
+.social .cta {
   font-family: var(--secondary-font);
   text-align: left;
-font-weight: 700;
+  font-weight: 700;
 }
 
-
-.phone .number{
+.phone .number {
   font-weight: 400;
-
 }
 
-.address{
+.address {
   display: flex;
   flex-direction: column;
   align-items: start;
 }
 
-.address .cta{
+.address .cta {
   font-family: var(--secondary-font);
   margin-bottom: 1.88rem;
-font-weight: 700;
-
+  font-weight: 700;
 }
 
 .business-name,
-.street{
+.street {
   margin-bottom: 0.94rem;
 }
 
 .business-name,
 .street,
-.zipcode{
+.zipcode {
   text-align: left;
   font-family: var(--secondary-font);
   font-weight: 400;
 }
 
-.icons{
+.icons {
   display: flex;
   gap: 0.56rem;
   align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .weekday{
+    display: none;
+  }
+
+  .nickname{
+    display: block;
+  }
 }

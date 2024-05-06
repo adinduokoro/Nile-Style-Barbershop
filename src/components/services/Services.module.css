@@ -14,6 +14,7 @@
 }
 
 .service {
+  border: 3px solid green;
   width: 22.4375rem;
   height: 24.8125rem;
   border-radius: 2.4375rem;
@@ -71,5 +72,24 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .services-content{
+    flex-direction: column;
+  }
+
+  .service{
+    width: 100%;
+    height: 12.40625rem;
+    gap: 1.31rem;
+  padding: 0 1.565rem;
+
+  }
+
+  .image-container {
+    width: 2.78125rem;
+    height: 2.78125rem;
+  }
+
+  .info p {
+    margin-top: 0.875rem;
+  }
 }
