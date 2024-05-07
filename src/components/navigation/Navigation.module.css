@@ -32,8 +32,8 @@
   transform: scaleX(0);
   margin-left: 0.12rem;
   transition: var(--transition);
-    background-color: white;
-    border-style: solid;
+  background-color: white;
+  border-style: solid;
 }
 
 .link:hover hr {
@@ -41,13 +41,13 @@
   transition: var(--transition);
 }
 
-.menu-to-close-alt-transition{
+.menu-to-close-alt-transition {
   width: 2rem;
   height: 2rem;
   display: none;
 }
 
-.close-to-menu-alt-transition{
+.close-to-menu-alt-transition {
   width: 2rem;
   height: 2rem;
   display: none;
@@ -71,15 +71,12 @@
     align-items: center;
     background-color: var(--secondary-color-black);
     padding: 15rem 0;
-  transition: var(--transition);
-
-
+    transition: var(--transition);
   }
 
-  .active-menu{
+  .active-menu {
     right: 0%;
-  transition: var(--transition);
-
+    transition: var(--transition);
   }
 
   .link {
@@ -97,14 +94,14 @@
     font-family: var(--secondary-font);
   }
 
-  .menu-to-close-alt-transition{
+  .menu-to-close-alt-transition {
     display: block;
     position: absolute;
     right: 20%;
     top: 5%;
   }
 
-  .close-to-menu-alt-transition{
+  .close-to-menu-alt-transition {
     display: block;
     position: absolute;
     right: 10%;
