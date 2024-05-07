@@ -6,6 +6,9 @@ import facebookIcon from "../../assets/facebook-icon.svg";
 import instagramIcon from "../../assets/instagram-icon.svg";
 
 const Contact = () => {
+  const versionOne = hours[0].versionOne
+  const versionTwo = hours[1].versionTwo
+
   return (
     <section className={`${styles.contact} bg-setting`}>
       <div className="wrapper">
@@ -18,7 +21,8 @@ const Contact = () => {
           <div className={styles["hours-of-operation"]}>
             <h2 className={styles.title}>HOURS</h2>
             <div className={styles["hours-container"]}>
-              {hours.map((hour, index) => {
+              <div className={styles["version-one"]}>
+              {versionOne.map((hour, index) => {
                 return (
                   <h2 className={styles.hour} key={index}>
                     <div className={styles.weekday}>{hour.weekday} </div>
@@ -29,6 +33,18 @@ const Contact = () => {
                   </h2>
                 );
               })}
+
+              </div>
+              <div className={styles["version-two"]}>
+                {versionTwo.map((hour, index) => {
+                  return(
+                    <h2 className={styles.hour} key={index}>
+                    <div className={styles.weekday}>{hour.weekday} </div>
+                    <span className={styles.time}>{hour.hour}</span>
+                  </h2>
+                  )
+                })}
+              </div>
             </div>
             <h4 className={styles.disclaimer}>
               Last customer admitted 30 minutes prior to closing

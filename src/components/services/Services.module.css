@@ -27,12 +27,13 @@
   padding: 0 3.13rem;
   cursor: pointer;
   background-color: none;
-  transition: 0.3s ease-in-out;
+  transition: var(--transition);
+
 }
 
 .service:hover {
   background-color: var(--secondary-color-black);
-  transition: 0.3s ease-in-out;
+  transition: var(--transition);
 }
 
 .image-container {

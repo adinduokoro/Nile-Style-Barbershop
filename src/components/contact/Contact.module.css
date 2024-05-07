@@ -29,9 +29,9 @@
   text-decoration-line: underline;
 }
 
-.hours-container {
-  display: flex;
+.version-one {
   flex-direction: column;
+  display: flex;
   gap: 1.87rem;
 }
 
@@ -58,6 +58,10 @@
 
 .time {
   font-weight: 400;
+}
+
+.version-two {
+  display: none;
 }
 
 .disclaimer {
@@ -88,6 +92,7 @@
   font-family: var(--secondary-font);
   text-align: left;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .phone .number {
@@ -98,6 +103,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
+  white-space: nowrap;
 }
 
 .address .cta {
@@ -126,11 +132,60 @@
 }
 
 @media screen and (max-width: 800px) {
-  .weekday{
+  .weekday {
     display: none;
   }
 
-  .nickname{
+  .nickname {
     display: block;
+  }
+}
+
+@media screen and (max-width: 643px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hours-of-operation {
+    padding: 2% 0;
+  }
+
+  .version-one {
+    display: none;
+  }
+
+  .weekday {
+    display: block;
+  }
+
+  .version-two {
+    display: block;
+    flex-direction: column;
+    display: flex;
+    gap: 0.935rem;
+  }
+
+  .phone .cta{
+    margin-bottom: 0.20rem;
+  }
+
+  .phone,
+  .social {
+    gap: 0.47rem;
+  }
+
+  .address .cta {
+    margin-bottom: 0.47rem;
+  }
+
+  .business-name,
+  .street {
+    margin-bottom: 0;
+  }
+  .number,
+  .zipcode{
+    margin-bottom: 2rem;
+
   }
 }
